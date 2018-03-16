@@ -1,0 +1,15 @@
+Figure out how DoubleTap visualization stuff should work.
+
+Add GTS stuff to my custom pack
+Setup boolean param to turn off/on changing of base game abilities
+Rename stuff from LW_Overhaul so it doesn't overlap with other potential LW mods (consolidate abilities from LW_Overhaul)
+Consider turning all of the overwrites in LW into their own skills so we don't have issues with other mods
+Check the UI without the new screens and see if Brigadier rank shows up.  If not, try porting over LWPerkPack fix.
+Looks like Conceal (also called Stealth in the code) has ini params from both LW and Vanilla to handle the same things.  Investigate this discrepancy.
+Look into Content stuff.  Can maybe trim a bunch out of UILibrary_LW_Overhaul.upk
+
+TraverseFire - Not working
+SaturationFire - Spread looks right from cannon, but doesn't destroy enough (a car seemed to light on fire).  Not sure if ammo cost works properly.  Shots from assault rifle doesn't look right.  Damage seems to work.
+AreaSuppression - Having issues with animation from Assault Rifle.  Also seems to do a friendly fire thing.
+Smoke/PoisonEffect - LW had a bWorldSmokeShouldDisableExtraLOSCheck to ensure preview matched actual, but this hasn't carried through WotC or Highlander.  Maybe see if highlander can be updated with the params.
+Flush - Made a dude shoot at me.  Not ok.
