@@ -12,6 +12,9 @@
     <Content Include="Config\XComEditor.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComGame.ini">
       <SubType>Content</SubType>
     </Content>
@@ -88,388 +91,385 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ReadMe.txt" />
-    <Content Include="Src\Classes\LWAbilityMods_Utility.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\LWAbilityTemplateMods.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\LWAbilityTemplateMods.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\LWItemMods_Utility.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\LWItemMods_Utility.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\LWItemTemplateMods.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\LWItemTemplateMods.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2AbilityCharges_Interference.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2AbilityCharges_Interference.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2AbilityCharges_RescueProtocol.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2AbilityCharges_RescueProtocol.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2AbilityCooldown_AllInstances.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2AbilityCooldown_AllInstances.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2AbilityCooldown_MindMerge.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2AbilityCooldown_MindMerge.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2AbilityCooldown_RunAndGun_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2AbilityCooldown_RunAndGun_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2AbilityCost_Ammo_AllAmmo.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2AbilityCost_Ammo_AllAmmo.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2AbilityCost_QuickdrawActionPoints_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2AbilityCost_QuickdrawActionPoints_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2AbilityTarget_Single_CCS.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2AbilityTarget_Single_CCS.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2AbilityTemplate_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2AbilityTemplate_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_LW_AssaultAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_LW_AssaultAbilitySet.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_LW_GrenadierAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_LW_GrenadierAbilitySet.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_LW_GunnerAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_LW_GunnerAbilitySet.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_LW_PsiOperativeAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_LW_PsiOperativeAbilitySet.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_LW_RangerAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_LW_RangerAbilitySet.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_LW_SharpshooterAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_LW_SharpshooterAbilitySet.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_LW_ShinobiAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_LW_ShinobiAbilitySet.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_LW_SpecialistAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_LW_SpecialistAbilitySet.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_PerkPackAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_PerkPackAbilitySet.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Ability_PerkPackAbilitySet2.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Ability_PerkPackAbilitySet2.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Condition_CoupDeGrace.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Condition_CoupDeGrace.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Condition_OverwatchLimit.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Condition_OverwatchLimit.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Condition_RequireConcealed.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Condition_RequireConcealed.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Condition_RequiredToHitChance.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Condition_RequiredToHitChance.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Condition_Sedate.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Condition_Sedate.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Condition_Solace_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Condition_Solace_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2DownloadableContentInfo_LWPerkPackWotC.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2DownloadableContentInfo_LWPerkPackWotC.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_AbilityDamageMult.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_AbilityDamageMult.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_AbsorptionFields.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_AbsorptionFields.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Aggression.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Aggression.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_ApplyDenseSmokeGrenadeToWorld.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_ApplyDenseSmokeGrenadeToWorld.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_AreaSuppression.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_AreaSuppression.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Bastion.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Bastion.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_BiggestBooms_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_BiggestBooms_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_BodyShield.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_BodyShield.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Bombard.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Bombard.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_BonusGrenadeSlotUse.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_BonusGrenadeSlotUse.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_BringEmOn.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_BringEmOn.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_CancelLongRangePenalty.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_CancelLongRangePenalty.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_CloseandPersonal.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_CloseandPersonal.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_CloseEncounters.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_CloseEncounters.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_CombatAwareness.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_CombatAwareness.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Commissar.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Commissar.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_CoupDeGrace.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_CoupDeGrace.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_CoupDeGrace2.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_CoupDeGrace2.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Cutthroat.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Cutthroat.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_DamageControl.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_DamageControl.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_DamnGoodGround.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_DamnGoodGround.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_DeathFromAbove_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_DeathFromAbove_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_DenseSmokeGrenade.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_DenseSmokeGrenade.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_DepthPerception.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_DepthPerception.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_DoubleDamage.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_DoubleDamage.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_DoubleTap.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_DoubleTap.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_EmergencyLifeSupport.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_EmergencyLifeSupport.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Executioner_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Executioner_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Failsafe.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Failsafe.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_FallBack.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_FallBack.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_FieldSurgeon.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_FieldSurgeon.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_FlecheBonusDamage.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_FlecheBonusDamage.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Formidable.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Formidable.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_FullKit.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_FullKit.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_FullOrdnance.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_FullOrdnance.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_GrazingFire.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_GrazingFire.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Guardian_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Guardian_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_HardTarget.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_HardTarget.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_HEATGrenades.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_HEATGrenades.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_HitandRun.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_HitandRun.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_HunkerDown_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_HunkerDown_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_HuntersInstinctDamage_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_HuntersInstinctDamage_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_HyperReactivePupils.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_HyperReactivePupils.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Infighter.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Infighter.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Interference.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Interference.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_IronCurtain.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_IronCurtain.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_IronCurtainStatDamage.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_IronCurtainStatDamage.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_KilledEnemy.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_KilledEnemy.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_KillerInstinct.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_KillerInstinct.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Kubikuri.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Kubikuri.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_LightningReflexes_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_LightningReflexes_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_LockdownDamage.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_LockdownDamage.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_LockedOn.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_LockedOn.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_LoneWolf.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_LoneWolf.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_LowProfile_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_LowProfile_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_MaybeApplyDirectionalWorldDamage.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_MaybeApplyDirectionalWorldDamage.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Mayhem.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Mayhem.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_MeleeDamageAdjust_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_MeleeDamageAdjust_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_MindMerge.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_MindMerge.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_PrecisionShotCritDamage.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_PrecisionShotCritDamage.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_PrimaryHitBonusDamage.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_PrimaryHitBonusDamage.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_RapidDeployment.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_RapidDeployment.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_RapidReaction.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_RapidReaction.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_RemoveAreaSuppressionEffect.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_RemoveAreaSuppressionEffect.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Resilience.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Resilience.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Savior.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Savior.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Sentinel_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Sentinel_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_SerialCritReduction.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_SerialCritReduction.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_SlugShot.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_SlugShot.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_SmartMacrophages.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_SmartMacrophages.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_SnapShotAimModifier.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_SnapShotAimModifier.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_SoulSteal_LW.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_SoulSteal_LW.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_StreetSweeper.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_StreetSweeper.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_TacticalSense.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_TacticalSense.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_TemporaryItem.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_TemporaryItem.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_TraverseFire.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_TraverseFire.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Trojan.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Trojan.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_TrojanVirus.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_TrojanVirus.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_WalkFireDamage.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_WalkFireDamage.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Whirlwind.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Whirlwind.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_Whirlwind2.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_Whirlwind2.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Effect_WilltoSurvive.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Effect_WilltoSurvive.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Item_DenseSmokeGrenade.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Item_DenseSmokeGrenade.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Item_LWUtilityItems.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Item_LWUtilityItems.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Item_PerkPCS.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Item_PerkPCS.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2Item_StingGrenade.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2Item_StingGrenade.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2LWTemplateModTemplate.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2LWTemplateModTemplate.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\X2TargetingMethod_AreaSuppression.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\X2TargetingMethod_AreaSuppression.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_Effect_Bombard.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\XComGameState_Effect_Bombard.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_Effect_EffectCounter.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\XComGameState_Effect_EffectCounter.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_Effect_Failsafe.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\XComGameState_Effect_Failsafe.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_Effect_IncomingReactionFire.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\XComGameState_Effect_IncomingReactionFire.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_Effect_LastShotDetails.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\XComGameState_Effect_LastShotDetails.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_Effect_Savior.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\XComGameState_Effect_Savior.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_Effect_TemporaryItem.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\XComGameState_Effect_TemporaryItem.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_Effect_Trojan.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\XComGameState_Effect_Trojan.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_Effect_Whirlwind.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\Classes\XComGameState_Effect_Whirlwind.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\Classes\XComGameState_LWListenerManager.uc">
+    <Content Include="Src\LWPerkPackWotC\Classes\XComGameState_LWListenerManager.uc">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
@@ -479,6 +479,8 @@
     <Folder Include="Localization" />
     <Folder Include="Src" />
     <Folder Include="Src\Classes" />
+    <Folder Include="Src\LWPerkPackWotC" />
+    <Folder Include="Src\LWPerkPackWotC\Classes" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
 </Project>
