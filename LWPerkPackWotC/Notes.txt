@@ -7,13 +7,86 @@ Consider turning all of the overwrites in LW into their own skills so we don't h
 Check the UI without the new screens and see if Brigadier rank shows up.  If not, try porting over LWPerkPack fix.
 Looks like Conceal (also called Stealth in the code) has ini params from both LW and Vanilla to handle the same things.  Investigate this discrepancy.
 Look into Content stuff.  Can maybe trim a bunch out of UILibrary_LW_Overhaul.upk
+Cannon reload seems to disappear sometimes
+Destructibles might need investigating
 
-TraverseFire - Not working
-SaturationFire - Spread looks right from cannon, but doesn't destroy enough (a car seemed to light on fire).  Not sure if ammo cost works properly.  Threw redscreen noise about ExitCover animation.
 AreaSuppression - Having issues with animation from Assault Rifle.  Also seems to do a friendly fire thing.
 Smoke/PoisonEffect - LW had a bWorldSmokeShouldDisableExtraLOSCheck to ensure preview matched actual, but this hasn't carried through WotC or Highlander.  Maybe see if highlander can be updated with the params.
 Flush - Made a dude shoot at me.  Not ok.  Damage reduction not working.
 Double Tap - Not doing second shot.
-Precision Shot - Not adding bonuses.
-Cyclic Fire - Not doing three shots.
-Doesn't look like bonuses are being applied.
+
+Specialist
+Working Skills
+- Ever Vigilant
+- Covering Fire
+- Field Medic
+- Scanning Protocol
+- Rescue Protocol
+- Combat Protocol
+- Air Drop
+- Revival Protocol
+- Capacitor Discharge
+- Kill Zone
+- Interference
+- Sentinel
+- Savior
+Not Yet Working Skills
+- Full Override
+
+Sharpshooter
+Working Skills
+- Aggression
+- Squadsight
+- Death from Above
+- Damn Good Ground
+- Phantom
+- Center Mass
+- Alpha Mike Foxtrot
+- Low Profile
+- Lone Wolf
+- Deadeye
+- Precision Shot
+- Kubikiri
+- Snap shot
+- Serial
+Not Yet Working Skills
+- Double Tap
+
+Gunner
+Working Skills
+- Shredder
+- Iron Curtain
+- Flush
+- Traverse Fire
+- Hail Of Bullets
+- Rapid Fire
+- Kill Zone
+- Saturation Fire
+- Rupture
+- Chain shot
+- Cyclic Fire
+Not Yet Working Skills
+
+Assault
+Working Skills
+- Trench Gun
+- Close and Personal
+- Close Combat
+- Hit and Run
+- Slug Shot
+- Close Encounters
+- Aggression
+- Lethal
+- Run and Gun
+- Street Sweeper
+Not Yet Working Skills
+
+Shinobi
+Working Skills
+- Fleche
+- Lone Wolf
+- Shadowstrike
+- Ghostwalker
+- Hunter's Instinct
+- Whirlwind
+Not Yet Working Skills
