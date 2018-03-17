@@ -205,9 +205,9 @@ static function array<X2DataTemplate> CreateTemplates()
   Templates.AddItem(AddFormidableAbility());
   Templates.AddItem(AddSoulStealTriggered2());
 
-	Templates.AddItem(PurePassive('FireControl25', "img:///UILibrary_LW_Overhaul.LW_AbilityFireControl", false));
-	Templates.AddItem(PurePassive('FireControl50', "img:///UILibrary_LW_Overhaul.LW_AbilityFireControl", false));
-	Templates.AddItem(PurePassive('FireControl75', "img:///UILibrary_LW_Overhaul.LW_AbilityFireControl", false));
+  Templates.AddItem(PurePassive('FireControl25', "img:///UILibrary_LW_Overhaul.LW_AbilityFireControl", false));
+  Templates.AddItem(PurePassive('FireControl50', "img:///UILibrary_LW_Overhaul.LW_AbilityFireControl", false));
+  Templates.AddItem(PurePassive('FireControl75', "img:///UILibrary_LW_Overhaul.LW_AbilityFireControl", false));
 
   return Templates;
 }
@@ -1007,46 +1007,46 @@ simulated function DoubleTap1_BuildVisualization(XComGameState VisualizeGameStat
 
   //if( AbilityContext.EventChainStartIndex != 0 )
   //{
-    //History = `XCOMHISTORY;
+  //History = `XCOMHISTORY;
 
-    //// This GameState is part of a chain, which means there may be a second shot
-    //for( EventChainIndex = AbilityContext.EventChainStartIndex; !Context.bLastEventInChain; ++EventChainIndex )
-    //{
-      //Context = History.GetGameStateFromHistory(EventChainIndex).GetContext();
+  //// This GameState is part of a chain, which means there may be a second shot
+  //for( EventChainIndex = AbilityContext.EventChainStartIndex; !Context.bLastEventInChain; ++EventChainIndex )
+  //{
+  //Context = History.GetGameStateFromHistory(EventChainIndex).GetContext();
 
-      //TestAbilityContext = XComGameStateContext_Ability(Context);
+  //TestAbilityContext = XComGameStateContext_Ability(Context);
 
-      //if( TestAbilityContext.InputContext.AbilityTemplateName == 'DoubleTap2ndShot' &&
-          //TestAbilityContext.InputContext.SourceObject.ObjectID == AbilityContext.InputContext.SourceObject.ObjectID &&
-          //TestAbilityContext.InputContext.PrimaryTarget.ObjectID == AbilityContext.InputContext.PrimaryTarget.ObjectID )
-      //{
-        //TrackContext = Context;
-        //// Found a visualization
-        //for( TrackIndex = AbilityContext.EventChainStartIndex; !TrackContext.bLastEventInChain; ++TrackIndex )
-        //{
-          //TrackContext = History.GetGameStateFromHistory(TrackIndex).GetContext();
-          //TestAbilityContext = XComGameStateContext_Ability(TrackContext);
-          //if( TestAbilityContext.InputContext.SourceObject.ObjectID == AbilityContext.InputContext.SourceObject.ObjectID)
-          //{
-            //// Found the Source track
-            //break;
-          //}
-        //}
+  //if( TestAbilityContext.InputContext.AbilityTemplateName == 'DoubleTap2ndShot' &&
+  //TestAbilityContext.InputContext.SourceObject.ObjectID == AbilityContext.InputContext.SourceObject.ObjectID &&
+  //TestAbilityContext.InputContext.PrimaryTarget.ObjectID == AbilityContext.InputContext.PrimaryTarget.ObjectID )
+  //{
+  //TrackContext = Context;
+  //// Found a visualization
+  //for( TrackIndex = AbilityContext.EventChainStartIndex; !TrackContext.bLastEventInChain; ++TrackIndex )
+  //{
+  //TrackContext = History.GetGameStateFromHistory(TrackIndex).GetContext();
+  //TestAbilityContext = XComGameStateContext_Ability(TrackContext);
+  //if( TestAbilityContext.InputContext.SourceObject.ObjectID == AbilityContext.InputContext.SourceObject.ObjectID)
+  //{
+  //// Found the Source track
+  //break;
+  //}
+  //}
 
-        //for( ActionIndex = OutVisualizationTracks[TrackIndex].TrackActions.Length - 1; ActionIndex >= 0; --ActionIndex )
-        //{
-          //EnterCoverAction = X2Action_EnterCover(OutVisualizationTracks[TrackIndex].TrackActions[ActionIndex]);
-          //EndCinescriptCameraAction = X2Action_EndCinescriptCamera(OutVisualizationTracks[TrackIndex].TrackActions[ActionIndex]);
-          //if ( (EnterCoverAction != none) ||
-               //(EndCinescriptCameraAction != none) )
-          //{
-            //OutVisualizationTracks[TrackIndex].TrackActions.Remove(ActionIndex, 1);
-          //}
-        //}
+  //for( ActionIndex = OutVisualizationTracks[TrackIndex].TrackActions.Length - 1; ActionIndex >= 0; --ActionIndex )
+  //{
+  //EnterCoverAction = X2Action_EnterCover(OutVisualizationTracks[TrackIndex].TrackActions[ActionIndex]);
+  //EndCinescriptCameraAction = X2Action_EndCinescriptCamera(OutVisualizationTracks[TrackIndex].TrackActions[ActionIndex]);
+  //if ( (EnterCoverAction != none) ||
+  //(EndCinescriptCameraAction != none) )
+  //{
+  //OutVisualizationTracks[TrackIndex].TrackActions.Remove(ActionIndex, 1);
+  //}
+  //}
 
-        //break;
-      //}
-    //}
+  //break;
+  //}
+  //}
   //}
 }
 
@@ -1065,22 +1065,22 @@ simulated function FastShot2_BuildVisualization(XComGameState VisualizeGameState
 
   //for( TrackIndex = 0; TrackIndex < OutVisualizationTracks.Length; ++TrackIndex )
   //{
-    //if( OutVisualizationTracks[TrackIndex].StateObject_NewState.ObjectID == AbilityContext.InputContext.SourceObject.ObjectID)
-    //{
-      //// Found the Source track
-      //break;
-    //}
+  //if( OutVisualizationTracks[TrackIndex].StateObject_NewState.ObjectID == AbilityContext.InputContext.SourceObject.ObjectID)
+  //{
+  //// Found the Source track
+  //break;
+  //}
   //}
 
   //for( ActionIndex = OutVisualizationTracks[TrackIndex].TrackActions.Length - 1; ActionIndex >= 0; --ActionIndex )
   //{
-    //ExitCoverAction = X2Action_ExitCover(OutVisualizationTracks[TrackIndex].TrackActions[ActionIndex]);
-    //StartCinescriptCameraAction = X2Action_StartCinescriptCamera(OutVisualizationTracks[TrackIndex].TrackActions[ActionIndex]);
-    //if ( (ExitCoverAction != none) ||
-         //(StartCinescriptCameraAction != none) )
-    //{
-      //OutVisualizationTracks[TrackIndex].TrackActions.Remove(ActionIndex, 1);
-    //}
+  //ExitCoverAction = X2Action_ExitCover(OutVisualizationTracks[TrackIndex].TrackActions[ActionIndex]);
+  //StartCinescriptCameraAction = X2Action_StartCinescriptCamera(OutVisualizationTracks[TrackIndex].TrackActions[ActionIndex]);
+  //if ( (ExitCoverAction != none) ||
+  //(StartCinescriptCameraAction != none) )
+  //{
+  //OutVisualizationTracks[TrackIndex].TrackActions.Remove(ActionIndex, 1);
+  //}
   //}
 }
 
