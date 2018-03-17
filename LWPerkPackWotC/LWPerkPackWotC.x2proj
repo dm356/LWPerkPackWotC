@@ -9,6 +9,12 @@
     <RootNamespace>LWPerkPackWotC</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Config\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComEditor.ini">
       <SubType>Content</SubType>
     </Content>
@@ -16,6 +22,18 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_XpData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComLW_SoldierSkills.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Content\UILibrary_LW_Overhaul.upk">
@@ -478,7 +496,6 @@
     <Folder Include="Content" />
     <Folder Include="Localization" />
     <Folder Include="Src" />
-    <Folder Include="Src\Classes" />
     <Folder Include="Src\LWPerkPackWotC" />
     <Folder Include="Src\LWPerkPackWotC\Classes" />
   </ItemGroup>
