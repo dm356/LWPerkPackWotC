@@ -6,7 +6,7 @@
 //				- handles gamestate movement updates, inserting attacks as needed
 //---------------------------------------------------------------------------------------
 
-class XComGameState_Effect_Whirlwind extends XComGameState_BaseObject config(LW_PerkPack);
+class XComGameState_Effect_Whirlwind extends XComGameState_BaseObject;
 
 var StateObjectReference OwnerUnitRef;				//the unit using whirlwind, cached for better history observer performance
 var array<StateObjectReference> PossibleTargets;	// possible targets, cached for better performance and to limit to one attack per ability activation
@@ -203,7 +203,7 @@ simulated function EventListenerReturn OnUnitMoveFinished(Object EventData, Obje
 	//
 	////GameState = class'XComGameStateContext_ChangeContainer'.static.CreateChangeState("Update RedFog OnNewGameState");
 	//for( StateObjectIndex = 0; StateObjectIndex < MovedStateObjects.Length; ++StateObjectIndex )
-	//{	
+	//{
 		//MovedStateObj = MovedStateObjects[StateObjectIndex]; // Cache this because it apparently can be removed from the array mid-loop.
 //
 		////verify that it's the Whirlwind effect owner that moved

@@ -1,13 +1,11 @@
 ///---------------------------------------------------------------------------------------
 //  FILE:    X2Effect_Whirlwind
 //  AUTHOR:  Amineri (Pavonis Interactive)
-//  PURPOSE: Implements effect for Whirlwind ability 
+//  PURPOSE: Implements effect for Whirlwind ability
 //			This is a triggering effect makes the unit melee attack each unit while making a single move
-//--------------------------------------------------------------------------------------- 
 //---------------------------------------------------------------------------------------
-class X2Effect_Whirlwind extends X2Effect_Persistent config(LW_PerkPack);
-
- var config int WHIRLWIND_COOLDOWN;
+//---------------------------------------------------------------------------------------
+class X2Effect_Whirlwind extends X2Effect_Persistent;
 
  //add a component to XComGameState_Effect to listen for successful unit hacks
 simulated protected function OnEffectAdded(const out EffectAppliedData ApplyEffectParameters, XComGameState_BaseObject kNewTargetState, XComGameState NewGameState, XComGameState_Effect NewEffectState)
@@ -51,7 +49,7 @@ simulated protected function OnEffectAdded(const out EffectAppliedData ApplyEffe
 
 static function XComGameState_Effect_Whirlwind GetEffectComponent(XComGameState_Effect Effect)
 {
-	if (Effect != none) 
+	if (Effect != none)
 		return XComGameState_Effect_Whirlwind(Effect.FindComponentObject(class'XComGameState_Effect_Whirlwind'));
 	return none;
 }
