@@ -326,12 +326,12 @@ function ModifyAbilitiesGeneral(X2AbilityTemplate Template, int Difficulty)
   }
 
   // lets RP gain charges from gremlin tech
-  if (Template.DataName == 'RevivalProtocol')
-  {
-    RPCharges = new class 'X2AbilityCharges_RevivalProtocol';
-    RPCharges.InitialCharges = class'X2Ability_SpecialistAbilitySet'.default.REVIVAL_PROTOCOL_CHARGES;
-    Template.AbilityCharges = RPCharges;
-  }
+  //if (Template.DataName == 'RevivalProtocol')
+  //{
+    //RPCharges = new class 'X2AbilityCharges_RevivalProtocol';
+    //RPCharges.InitialCharges = class'X2Ability_SpecialistAbilitySet'.default.REVIVAL_PROTOCOL_CHARGES;
+    //Template.AbilityCharges = RPCharges;
+  //}
 
   // adds config to ammo cost and fixes vanilla bug in which
   if (Template.DataName == 'SaturationFire')
