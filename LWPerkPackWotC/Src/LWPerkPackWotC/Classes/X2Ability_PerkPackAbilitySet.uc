@@ -521,7 +521,7 @@ static function X2AbilityTemplate AddExecutioner_LWAbility()
   local X2AbilityTemplate					Template;
   local X2Effect_Executioner_LW				AimandCritModifiers;
 
-  `CREATE_X2ABILITY_TEMPLATE(Template, 'ExecutionerLW');
+  `CREATE_X2ABILITY_TEMPLATE(Template, 'Executioner_LW');
   Template.IconImage = "img:///UILibrary_LW_PerkPack.LW_AbilityExecutioner";
   Template.AbilitySourceName = 'eAbilitySource_Perk';
   Template.eAbilityIconBehaviorHUD = EAbilityIconBehavior_NeverShow;
